@@ -79,6 +79,50 @@ html {
                 }
             }
         }
+        .main {
+            width: 100%;
+            overflow: hidden;
+            overflow-y: scroll;
+            dl {
+                width: 100%;
+                height: 10rem;
+                display: flex;
+                align-items: center;
+                padding: 0 1rem;
+                box-sizing: border-box;
+                border-bottom: .1rem solid #ccc;
+                dt {
+                    width: 10rem;
+                    height: auto;
+                    margin-right: 2rem;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                dd {
+                    flex: 1;
+                    p {
+                        font-size: 1.6rem;
+                        span {
+                            color: #F56C42;
+                        }
+                    }
+                    a {
+                        color: #F56C42;
+                        font-size: 1.4rem;
+                    }
+                    b {
+                        display: block;
+                        font-size: 1.4rem;
+                        i {
+                            font-style: normal;
+                            color: #F56C42;
+                        }
+                    }
+                }
+            }
+        }
     }
     footer {
         width: 100%;
