@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: .12rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap header {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.wrap header a {
+  color: #303741;
+  font-size: 1.4rem;
+}
+
+.wrap header a i {
+  color: #303741;
+  font-size: 1.4rem;
+}
+
+.wrap header p {
+  width: 60%;
+  height: 3rem;
+  background: #EFF2F6;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap header p input {
+  border: 0;
+  outline: 0;
+  border-radius: 1.5rem;
+  background: #EFF2F6;
+}
+
+.wrap header i {
+  color: #5F6670;
+  margin: .5rem 0 0 2rem;
+}
+
+.wrap section {
+  flex: 1;
+  width: 100%;
+}
+
+.wrap section .list {
+  width: 100%;
+  height: 4.5rem;
+  box-shadow: 1px 3px 0.5px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.wrap section .list li {
+  text-align: center;
+}
+
+.wrap section .list li i {
+  font-size: 1.4rem;
+  margin-left: .5rem;
+}
